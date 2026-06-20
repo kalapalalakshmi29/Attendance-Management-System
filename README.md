@@ -4,6 +4,22 @@ A full-stack web application built with **Spring Boot**, **React.js**, and **MyS
 
 ---
 
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/Screenshot%202026-06-20%20213829.png)
+
+### Dashboard
+![Dashboard](screenshots/Screenshot%202026-06-20%20213845.png)
+
+### Students Page
+![Students](screenshots/Screenshot%202026-06-20%20213910.png)
+
+### Attendance Page
+![Attendance](screenshots/Screenshot%202026-06-20%20213941.png)
+
+---
+
 ## Project Structure
 
 ```
@@ -52,6 +68,7 @@ Attendance Management System/
 │           ├── Students.js
 │           ├── AttendancePage.js
 │           └── Reports.js
+├── screenshots/
 └── database/
     └── schema.sql
 ```
@@ -77,35 +94,29 @@ Attendance Management System/
 ```sql
 source C:/Attendence Management System/database/schema.sql
 ```
-Or manually:
-```sql
-CREATE DATABASE attendance_db;
-```
 
 ### Step 2 — Backend (Spring Boot)
 
-1. Open VS Code → File → Open Folder → select `backend/`
-2. Update `src/main/resources/application.properties` with your MySQL credentials:
+1. Update `src/main/resources/application.properties` with your MySQL credentials:
 ```properties
 spring.datasource.username=root
 spring.datasource.password=YOUR_PASSWORD
 ```
-3. Open terminal and run:
+2. Open terminal and run:
 ```bash
 cd backend
 mvn spring-boot:run
 ```
-4. Backend starts at: `http://localhost:8080`
+3. Backend starts at: `http://localhost:8080`
 
 ### Step 3 — Frontend (React)
 
-1. Open a new terminal:
 ```bash
 cd frontend
 npm install
 npm start
 ```
-2. Frontend starts at: `http://localhost:3000`
+Frontend starts at: `http://localhost:3000`
 
 ---
 
