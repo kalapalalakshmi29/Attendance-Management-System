@@ -1,4 +1,4 @@
-package com.attendance.exception;
+package com.attendance.exception; 
 
 public class DuplicateAttendanceException extends RuntimeException {
     public DuplicateAttendanceException(String message) {
