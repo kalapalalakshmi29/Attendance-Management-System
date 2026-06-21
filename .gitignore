@@ -1,6 +1,6 @@
 # Compiled class files
 target/
-*.class
+*.class 
 
 # Node modules
 node_modules/
