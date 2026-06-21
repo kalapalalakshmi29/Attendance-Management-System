@@ -1,4 +1,4 @@
-package com.attendance.entity;
+package com.attendance.entity; 
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
