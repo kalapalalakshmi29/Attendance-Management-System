@@ -2,7 +2,7 @@
 -- Attendance Management System - Database Schema
 -- ================================================
 
--- Create and use database
+-- Create and use database 
 CREATE DATABASE IF NOT EXISTS attendance_db;
 USE attendance_db;
 
