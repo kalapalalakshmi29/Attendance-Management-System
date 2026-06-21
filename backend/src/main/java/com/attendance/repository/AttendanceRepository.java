@@ -1,5 +1,5 @@
 package com.attendance.repository;
-
+ 
 import com.attendance.entity.Attendance;
 import com.attendance.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
